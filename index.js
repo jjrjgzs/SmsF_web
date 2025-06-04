@@ -67,13 +67,13 @@ function 全局设置角标(index,value){
     }
 }
 function 导航栏1_项目被单击(项目标题,目标名称,项目索引){
-	if(公用模块.读取设置("服务器") ){
+	if(window.localStorage.getItem("SmsF服务器") ){
 		浏览框1.跳转("pages/"+目标名称);
 		for (var 计次=0;计次<4;计次++){
 			导航栏1.置项目角标(计次,0);
 		}
 		}else{
-		公用模块.弹出提示("请先连接");
+		mui.toast("请先连接",{type:"div"});
 		setTimeout(() => {
 			导航栏1.置项目激活状态(项目索引, false);
 			导航栏1.置项目激活状态(0, true);
