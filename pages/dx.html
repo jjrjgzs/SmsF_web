@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>短信列表</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/icons-extra.css" rel="stylesheet"/>
+    <link rel="icon" href="favicon.png" type="images/x-ico" />
+    <style type="text/css">
+        body{background-color:#EFEFF4;}
+    </style>
+</head>
+<body>
+
+
+
+	<div class="mui-content" style="background-color:transparent;display:-webkit-flex;flex-direction:column;">
+
+		<div id="按钮组1" class="mui-input-row" style="margin:5px;display:-webkit-flex;text-align:center;">
+			<button id="0" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 0px;font-size:14px;">收件箱</button>
+			<button id="1" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 5px;font-size:14px;">发件箱</button>
+		</div>
+
+		<div class="mui-input-row mui-search" style="margin:5px;display:block">
+			<input id="编辑框1" type="search" placeholder="搜索" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+<div id="卡片列表框1"></div>
+
+
+		<div class="mui-input-row" style="margin:5px;display:none">
+			<label id="标签1" style="width:100%;color:#808080;font-size:14px;margin:0px 0px 0px 0px;padding:0px;text-align:center">已经到底了...</label>
+		</div>
+
+		<div class="mui-input-row" style="text-align:center;margin:5px;display:none">
+			<button id="按钮1" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="width:100%;height:40px;float:none;margin:0px 0px 0px 0px;font-size:14px;">继续加载</button>
+		</div>
+	</div>
+
+</body>
+<script src="js/mui.min.js"></script>
+<script src="gongyongmokuai.js"></script>
+<script src="js/bluebird_window.js"></script>
+<script src="js/bluebird_buttonRow.js"></script>
+<script src="js/bluebird_editBox.js"></script>
+<script src="js/bluebird_lable.js"></script>
+<script src="js/bluebird_button.js"></script>
+<script src="js/BlueBird_CardList.js"></script>
+<script src="dx.js"></script>
+</html>

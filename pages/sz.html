@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>设置</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/icons-extra.css" rel="stylesheet"/>
+    <link rel="icon" href="favicon.png" type="images/x-ico" />
+    <style type="text/css">
+        body{background-color:#EFEFF4;}
+    </style>
+</head>
+<body>
+
+
+
+	<div class="mui-content" style="background-color:transparent;display:-webkit-flex;flex-direction:column;">
+
+		<div id="按钮组1" class="mui-input-row" style="margin:5px;display:-webkit-flex;text-align:center;">
+			<button id="0" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 0px;font-size:14px;">设备详情</button>
+			<button id="1" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 5px;font-size:14px;">电池详情</button>
+			<button id="2" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 5px;font-size:14px;">远程WOL</button>
+		</div>
+
+		<div class="mui-card" style="margin:5px;display:block">
+			<ul id="高级列表框1" class="mui-table-view">
+			</ul>
+		</div>
+
+		<div class="mui-card" style="margin:5px;display:block">
+			<ul id="高级列表框2" class="mui-table-view">
+			</ul>
+		</div>
+
+		<div class="mui-card" style="margin:5px;display:block">
+			<ul id="高级列表框3" class="mui-table-view">
+			</ul>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:none">
+			<label id="标签1" style="width:100%;color:#000000;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:left">网卡MAC</label>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:none">
+			<input id="编辑框1" type="text" class="mui-input-clear" placeholder="例如∶AA:BB:CC:DD:EE:FF" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:none">
+			<label id="标签2" style="width:100%;color:#000000;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:left">主机IP/广播地址</label>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:none">
+			<input id="编辑框2" type="text" class="mui-input-clear" placeholder="例如∶192.168.1.168" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div class="mui-input-row" style="text-align:center;margin:5px;display:none">
+			<button id="按钮1" type="button" class="mui-btn mui-btn-danger" style="width:100%;height:40px;float:none;margin:0px 0px 0px 0px;font-size:14px;">发送</button>
+		</div>
+	</div>
+
+</body>
+<script src="js/mui.min.js"></script>
+<script src="js/mui.lazyload.js"></script>
+<script src="js/mui.lazyload.img.js"></script>
+<script src="gongyongmokuai.js"></script>
+<script src="js/bluebird_buttonRow.js"></script>
+<script src="js/bluebird_extraList.js"></script>
+<script src="js/bluebird_lable.js"></script>
+<script src="js/bluebird_editBox.js"></script>
+<script src="js/bluebird_button.js"></script>
+<script src="sz.js"></script>
+</html>

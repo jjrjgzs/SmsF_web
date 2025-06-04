@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>电话簿</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/icons-extra.css" rel="stylesheet"/>
+    <link rel="icon" href="favicon.png" type="images/x-ico" />
+    <style type="text/css">
+        body{background-color:#EFEFF4;}
+    </style>
+</head>
+<body>
+
+
+
+	<div class="mui-content" style="background-color:transparent;display:-webkit-flex;flex-direction:column;display:none">
+
+		<div class="mui-input-row mui-search" style="margin:5px;display:block">
+			<input id="编辑框1" type="search" placeholder="搜索" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div id="自由面板2" class="mui-input-row" tag="自由面板" style="margin:0px 0px 5px 0px;display:none;width:100%;height:64px;">
+		<div class="mui-input-row" style="margin:0px 0px -5px 0px;text-align:center;display:block;left:10px;top:8px;width:48px;height:48px;position:absolute;">
+			<img id="图片框1" style="width:100%;height:100%;" src="" />
+		</div>
+
+		<div class="mui-input-row" style="margin:0px;display:block;left:70px;top:11px;width:120px;height:18px;position:absolute;">
+			<label id="标签4" style="width:100%;color:#000000;font-size:18px;margin:0px 0px 0px 0px;padding:0px;text-align:left"></label>
+		</div>
+
+		<div class="mui-input-row" style="margin:0px;display:block;left:70px;top:38px;width:120px;height:15px;position:absolute;">
+			<label id="标签5" style="width:100%;color:#808080;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:left"></label>
+		</div>
+
+		<div class="mui-input-row" style="text-align:center;margin:0px;display:block;left:179px;top:14px;width:60px;height:36px;position:absolute;">
+			<button id="按钮3" type="button" class="mui-btn mui-btn-primary mui-btn-outlined" style="width:100%;height:100%;float:none;margin:0px 0px 0px 0px;font-size:14px;">短信</button>
+		</div>
+
+		<div class="mui-input-row" style="text-align:center;margin:0px;display:block;left:253px;top:14px;width:60px;height:36px;position:absolute;">
+			<button id="按钮4" type="button" class="mui-btn mui-btn-danger mui-btn-outlined" style="width:100%;height:100%;float:none;margin:0px 0px 0px 0px;font-size:14px;">复制</button>
+		</div>
+		</div>
+<div id="弹出面板1" class="mui-popover">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    
+                </div>
+            </div>
+        </div>
+
+<div id="自由列表框1"></div>
+
+
+		<div class="mui-input-row" style="margin:5px;display:block">
+			<label id="标签1" style="width:100%;color:#FF0000;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:center">添加电话簿</label>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:block">
+			<label id="标签2" style="width:100%;color:#000000;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:left">名字∶</label>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:block">
+			<input id="编辑框2" type="text" class="mui-input-clear" placeholder="输入名字" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:block">
+			<label id="标签3" style="width:100%;color:#000000;font-size:15px;margin:0px 0px 0px 0px;padding:0px;text-align:left">号码∶</label>
+		</div>
+
+		<div class="mui-input-row" style="margin:5px;display:block">
+			<input id="编辑框3" type="number" placeholder="输入号码" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div id="按钮组1" class="mui-input-row" style="margin:5px;display:-webkit-flex;text-align:center;">
+			<button id="0" type="button" class="mui-btn mui-btn-primary" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 0px;font-size:14px;">取消</button>
+			<button id="1" type="button" class="mui-btn mui-btn-primary" style="-webkit-flex:1;height:40px;margin:0px 0px 0px 5px;font-size:14px;">添加</button>
+		</div>
+	</div>
+
+</body>
+<script src="js/mui.min.js"></script>
+<script src="gongyongmokuai.js"></script>
+<script src="js/bluebird_window.js"></script>
+<script src="js/bluebird_editBox.js"></script>
+<script src="js/bluebird_freedomPanel.js"></script>
+<script src="js/bluebird_imageBox.js"></script>
+<script src="js/bluebird_lable.js"></script>
+<script src="js/bluebird_button.js"></script>
+<script src="js/bluebird_buttonRow.js"></script>
+<script src="js/bluebird_popover.js"></script>
+<script src="js/bluebird_ziyoulist.js"></script>
+<script src="dhb.js"></script>
+</html>
